@@ -1,0 +1,24 @@
+
+What happens when you initialize a repository? Why do you need to do it?
+
+A. When we initialize a repository a .git file is created in the directory which we want to track.
+   
+   We want to track the changes in the files inside the directory and we use git for that purpose.
+   In order to track the files inside that directory, we have to inform git to start tracking the files inside 
+   the directory. 
+   The file inside the particular directory will be tracked only when a git repository is 
+   initialized in that directory. this is done using "git init" command.
+
+
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+
+A.Staging area contains the files which will form part of a commit.
+  The difference between the repository & staging area is that repository contains all the previous commits 
+  along with the latest commit while the staging area contains only the files that will form part of the latest
+  commit in the repository. 
+  it is not nesseccary that all files in the working directory be added to staging area
+  every-time we need to make a commit. only those files are added which are changed or some valuable change is made.
+
+  Staging area provides us the freedom to choose only those files which we think to be added to the commit
+  
