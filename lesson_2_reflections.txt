@@ -21,4 +21,12 @@ A.Staging area contains the files which will form part of a commit.
   every-time we need to make a commit. only those files are added which are changed or some valuable change is made.
 
   Staging area provides us the freedom to choose only those files which we think to be added to the commit
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+A.In a working directory there may be many files which are tracked by the git. while working on the files i may make
+  many logical changes in each files. if i commit all the files at once then there will be many logical changes that will be added in a single commit compared to previous commit.
+  In oreder to make this task simple the staging area can help us. we can make only some files be part of the commit out
+  of all the files in workng directory by using staging area. the files which we want to save in whcih we have made some logical changes is added to the staging area and then committed. in this way only those files form part of the commit which have been changed by us.
   
