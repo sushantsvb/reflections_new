@@ -29,4 +29,8 @@ A.In a working directory there may be many files which are tracked by the git. w
   many logical changes in each files. if i commit all the files at once then there will be many logical changes that will be added in a single commit compared to previous commit.
   In oreder to make this task simple the staging area can help us. we can make only some files be part of the commit out
   of all the files in workng directory by using staging area. the files which we want to save in whcih we have made some logical changes is added to the staging area and then committed. in this way only those files form part of the commit which have been changed by us.
-  
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A. when i want to try some experimental changes in the code which i don't want to be present in the main code i can use branch in such cases. I can safely experiemnt with the existing code without worrying about any unwanted changes getting added in the working main code. using bracnches i can edit the experimental changes safely and also i can save different versions of the file.  
