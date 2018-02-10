@@ -33,4 +33,12 @@ A.In a working directory there may be many files which are tracked by the git. w
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
-A. when i want to try some experimental changes in the code which i don't want to be present in the main code i can use branch in such cases. I can safely experiemnt with the existing code without worrying about any unwanted changes getting added in the working main code. using bracnches i can edit the experimental changes safely and also i can save different versions of the file.  
+A. when i want to try some experimental changes in the code which i don't want to be present in the main code i can use branch in such cases. I can safely experiemnt with the existing code without worrying about any unwanted changes getting added in the working main code. using bracnches i can edit the experimental changes safely and also i can save different versions of the file.
+
+
+How do the diagrams help you visualize the branch structure?
+
+A. git has given us a powerfool tool in the form of a branch to make & experiment with our code efficiently
+   using the concept of branch, i can access an older version of a file and make further changes into it.
+   By drawing the diagrams i can understand how the commits are saved in the repository logically.
+   i can clearly understand how the commits saved in the branches are different than that on the main branch 
