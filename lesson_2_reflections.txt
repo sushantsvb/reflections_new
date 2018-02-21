@@ -44,4 +44,7 @@ A. git has given us a powerfool tool in the form of a branch to make & experimen
    i can clearly understand how the commits saved in the branches are different than that on the main branch 
    
 checking the pull function   
+
+
+i used linux to make this commit.
    
